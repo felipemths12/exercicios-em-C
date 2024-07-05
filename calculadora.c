@@ -7,6 +7,7 @@ int main(){
 	float AV2;
 	float AV3;
 	float media;
+
 	
 	printf("Bem vindo a sua calculadora de notas!\n");
 	printf("Digite sua nota da AV1: ");
@@ -26,10 +27,12 @@ int main(){
 	if ( media >= 6.0){
 		printf("Parabens! Voce foi aprovado na disciplina!\n");
 	}
-	
-	if (media < 6.0){
+	else{
 		printf("Infelizmente voce foi reprovado. :(\n");
 	}
+	
+	printf("Developed by: Felipe Matheus. :)\n");
+	printf("GitHub: felipemths12\n");
 	
 	system ("pause");
 }
