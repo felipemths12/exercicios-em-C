@@ -60,5 +60,8 @@ int main(){
 			break;
 	}
 	
+	printf("Developed by: Felipe Matheus. :)\n");
+	printf("GitHub: felipemths12\n");
+	
 	system ("pause");
 }
